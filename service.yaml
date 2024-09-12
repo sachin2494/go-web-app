@@ -11,4 +11,4 @@ spec:
       targetPort: 8080 # It is the port which is being exposed by the application in the conatainer
       # NodePort => It is basically a physical port on the host/node.
       # The physical port is mapped with the service port which in turn is mapped with the container or application port 
-  type: ClusterIP    
+  type: NodePort    
