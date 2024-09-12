@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: go-web-app
-        image: samir274/go-web-app:v1 
+        image: samir274/myweb:v4 
         ports:
         - containerPort: 8080
      
